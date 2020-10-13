@@ -4,12 +4,12 @@
   <head>
     <meta charset="utf-8">
     <title>K-dramas and K-pop</title>
-    <meta name="viewport" content="width=device-width"/>
     <!--These link tags are going to a website for the Korean font to be used later on.-->
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/single-day-regular" type="text/css"/>
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/gothic-a1" type="text/css"/>
     <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/earlyaccess.nanumpenscript.css" type="text/css"/>
     <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/earlyaccess/hanna.css" type="text/css"/>
+    <meta name="viewport" content="width=device-width"/>
   </head>
   <body>
     <h1>What's so good about K-dramas and K-pop?</h1>
