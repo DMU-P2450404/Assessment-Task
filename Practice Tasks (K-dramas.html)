@@ -22,14 +22,11 @@
       <p>Here is a small list of my current favourite actors and actresses:</p>
       <ol style="padding: 1">
         <!--Adding lang="ko" in the opening tags of elements is another way to make the browser read Korean as well as English if it was not stated in the html tag at the top. I also noticed the difference in font used depending on which method was used. I'm not sure which is better to use.-->
-        <li lang= "ko" style="color: #cc00cc; font-family: 'Nanum Pen Script'; font-size: 130%">김소현 Kim SoHyun</li>
-        <img src="img/Kim_So_Hyun.jpg" alt="Kim So Hyun image" style="width: 350px"/>
-        <br> <br> <!--Adds a space between the image and the next list item. THERE IS PROBABLY A BETTER TO DO THIS-->
-        <li lang= "ko" style="color: #1a53ff; font-family: 'SingleDayRegular'; font-size: 110%">박서준 Park SeoJoon</li>
-        <img src="img/Park_Seo_Joon.jpeg" alt="Park Seo Joon image" style="width: 350px"/>
-        <br> <br> <!--Adds a space between the image and the next list item. THERE IS PROBABLY A BETTER TO DO THIS-->
-        <li lang= "ko" style="color: #1a53ff; font-family: 'SingleDayRegular'; font-size: 110%">박형식 Park HyungSik</li>
-        <img src="img/Park_Hyung_Sik.jpg" alt="Park Hyung Sik image" style="width: 350px"/>
+        <li lang= "ko" style="color: #cc00cc; font-family: 'Nanum Pen Script'; font-size: 130%">김소현 Kim SoHyun <br> <img src="img/Kim_So_Hyun.jpg" alt="Kim So Hyun image" style="width: 350px"/> <!--The image has been imbedded into the list item with <br> to add a paragraph space--> </li>
+        <br> <!--Adds a space between the image and the next list item-->
+        <li lang= "ko" style="color: #1a53ff; font-family: 'SingleDayRegular'; font-size: 110%">박서준 Park SeoJoon <br> <img src="img/Park_Seo_Joon.jpeg" alt="Park Seo Joon image" style="width: 350px"/> <!--The image has been imbedded into the list item with <br> to add a paragraph space--> </li>
+        <br> <!--Adds a space between the image and the next list item-->
+        <li lang= "ko" style="color: #1a53ff; font-family: 'SingleDayRegular'; font-size: 110%">박형식 Park HyungSik <br> <img src="img/Park_Hyung_Sik.jpg" alt="Park Hyung Sik image" style="width: 350px"/> <!--The image has been imbedded into the list item with <br> to add a paragraph space--> </li>
       </ol>
       <p>I've not watched many dramas with different leads. So I don't really know that many yet.</p>
       <hr>
