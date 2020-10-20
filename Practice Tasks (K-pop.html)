@@ -24,34 +24,26 @@
       <h4 style="color: #1a53ff">Males</h4>
       <ol style="padding: 1">
         <!--After the font-family rule, the name is what the website link was referenceing to in the head tag at the beginning of the code.-->
-        <li lang= "ko" style="color: #1a53ff; font-family: 'SingleDayRegular'; font-size: 110%">방탄소년단 BTS</li>
-        <img src="img/BTS.jpg" alt="BTS image" style="width: 350px"/>
-        <br> <br> <!--Adds a space between the image and the next list item. THERE IS PROBABLY A BETTER TO DO THIS-->
-        <li lang= "ko" style="color: #1a53ff; font-family: 'SingleDayRegular'; font-size: 110%">데이식스 Day6</li>
-        <img src="img/Day6.jpg" alt="Day6 image" style="width: 350px"/>
-        <br> <br> <!--Adds a space between the image and the next list item. THERE IS PROBABLY A BETTER TO DO THIS-->
-        <li llang= "ko" style="color: #1a53ff; font-family: 'SingleDayRegular'; font-size: 110%">하이라이트 Highlight, formally known as 비스트 Beast</li>
-        <img src="img/Highlight.png" alt="Highlight image" style="width: 350px"/>
+        <li lang= "ko" style="color: #1a53ff; font-family: 'SingleDayRegular'; font-size: 110%">방탄소년단 BTS <br> <img src="img/BTS.jpg" alt="BTS image" style="width: 350px"/> <!--The image has been imbedded into the list item with <br> to add a paragraph space--> </li>
+        <br> <!--Adds a space between the image and the next list item-->
+        <li lang= "ko" style="color: #1a53ff; font-family: 'SingleDayRegular'; font-size: 110%">데이식스 Day6 <br> <img src="img/Day6.jpg" alt="Day6 image" style="width: 350px"/> <!--The image has been imbedded into the list item with <br> to add a paragraph space--> </li>
+        <br> <!--Adds a space between the image and the next list item-->
+        <li lang= "ko" style="color: #1a53ff; font-family: 'SingleDayRegular'; font-size: 110%">하이라이트 Highlight, formally known as 비스트 Beast <br> <img src="img/Highlight.png" alt="Highlight image" style="width: 350px"/> <!--The image has been imbedded into the list item with <br> to add a paragraph space--> </li>
       </ol>
       <h4 style="color: #cc00cc">Females</h4>
       <ol style="padding: 1">
-        <li lang= "ko" style="color: #cc00cc; font-family: 'Nanum Pen Script'; font-size: 130%">알렉사 AleXa</li>
-        <img src="img/AleXa.jpeg" alt="AleXa image" style="width: 350px"/>
-        <br> <br> <!--Adds a space between the image and the next list item. THERE IS PROBABLY A BETTER TO DO THIS-->
-        <li lang= "ko" style="color: #cc00cc; font-family: 'Nanum Pen Script'; font-size: 130%">블랙핑크 Blackpink</li>
-        <img src="img/Blackpink.jpg" alt="Blackpink image" style="width: 350px"/>
-        <br> <br> <!--Adds a space between the image and the next list item. THERE IS PROBABLY A BETTER TO DO THIS-->
-        <li lang= "ko" style="color: #cc00cc; font-family: 'Nanum Pen Script'; font-size: 130%">에버글로우 Everglow</li>
-        <img src="img/Everglow.png" alt="Everglow image" style="width: 350px"/>
+        <li lang= "ko" style="color: #cc00cc; font-family: 'Nanum Pen Script'; font-size: 130%">알렉사 AleXa <br> <img src="img/AleXa.jpeg" alt="AleXa image" style="width: 350px"/> <!--The image has been imbedded into the list item with <br> to add a paragraph space--> </li>
+        <br> <!--Adds a space between the image and the next list item.-->
+        <li lang= "ko" style="color: #cc00cc; font-family: 'Nanum Pen Script'; font-size: 130%">블랙핑크 Blackpink <br> <img src="img/Blackpink.jpg" alt="Blackpink image" style="width: 350px"/> <!--The image has been imbedded into the list item with <br> to add a paragraph space--> </li>
+        <br> <br> <!--Adds a space between the image and the next list item-->
+        <li lang= "ko" style="color: #cc00cc; font-family: 'Nanum Pen Script'; font-size: 130%">에버글로우 Everglow <br> <img src="img/Everglow.png" alt="Everglow image" style="width: 350px"/> <!--The image has been imbedded into the list item with <br> to add a paragrpah space--> </li>
       </ol>
       <h4 style="color: #8d0090">Honorable mentions</h4>
       <p>Since I also listen to co-ed groups, I couldn't miss them out.</p>
       <ol style="padding: 1" style="color: #8d0090">
-        <li lang= "ko" style="color: #8d0090; font-family: 'Hanna'">카드 K.A.R.D</li>
-        <img src="img/KARD.jpg" alt="K.A.R.D image" style="width: 350px"/>
-        <br> <br> <!--Adds a space between the image and the next list item. THERE IS PROBABLY A BETTER TO DO THIS-->
-        <li lang= "ko" style="color: #8d0090; font-family: 'Hanna'">악뮤 AKMU, also known as 악동뮤지션 Akdong Musician</li>
-        <img src="img/AKMU.jpg" alt="Akdong Musician image" style="width: 350px"/>
+        <li lang= "ko" style="color: #8d0090; font-family: 'Hanna'">카드 K.A.R.D <br> <img src="img/KARD.jpg" alt="K.A.R.D image" style="width: 350px"/> <!--The image has been imbedded into the list item with <br> to add a paragraph space--> </li>
+        <br> <!--Adds a space between the image and the next list item-->
+        <li lang= "ko" style="color: #8d0090; font-family: 'Hanna'">악뮤 AKMU, also known as 악동뮤지션 Akdong Musician <br> <!--The image has been imbedded into the list item with <br> to add a paragraph space--> <img src="img/AKMU.jpg" alt="Akdong Musician image" style="width: 350px"/> </li>
       </ol>
     </div>
     <div> <!--Adding a footer--> <!--Uses an absolute URL to link to a website-->
