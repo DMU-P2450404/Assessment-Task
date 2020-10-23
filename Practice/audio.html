@@ -18,15 +18,28 @@
     </div>
     <div> <!--Adding the content section-->
       <h2>An example of a K-pop song</h2>
-      <p>On this page, you will find song by 방탄소년단 (BTS).</p>
-      <audio controls="true"> <!--Adds an audio file with the user being able to control the audio file-->
-        <source src="aud/Dynamite.wav" type="audio/wav"/>
-        <source src="aud/Dynamite.ogg" type="audio/ogg"/>
-        <source src="aud/Dynamite.mp3" type="audio/mpeg"/>
-        <p>Sorry. Your browser does not support the audio element. You can download the file <a href="aud/Dynamite.mp3">here</a>.<p> <!--This will be shown to users who are using browsers that do not suport the audio element-->
-      </audio>
+      <p>On this page, you will find song by 방탄소년단 (BTS) and a performance music video from AleXa.</p>
+      <hr>
+        <div> <!--Audio section-->
+          <audio controls="true"> <!--Adds an audio file in three formats with the user being able to control the audio file-->
+            <source src="aud/Dynamite.wav" type="audio/wav"/>
+            <source src="aud/Dynamite.ogg" type="audio/ogg"/>
+            <source src="aud/Dynamite.mp3" type="audio/mpeg"/>
+            <p>If your browser does not support the audio element, you can download the file <a href="aud/Dynamite.mp3">here</a>.</p> <!--This will be shown to users who are using browsers that do not suport the audio element-->
+          </audio>
+        </div>
+        <hr>
+        <div> <!--Video section-->
+          <video controls="true" width="50%" poster="vid/Revolution_cover.jpg"> <!--Adding a video file in three formats with the user being able to control the file-->
+            <source src="vid/Revolution.ogg" type="video.ogg"/>
+            <source src="vid/Revolution_perf.webm" type="video/webm"/>
+            <source src="vid/Revolution_perf.mp4" type="video/mp4"/>
+            <p>If your browser does not support the video element, you can download the file <a href="vid/Revolution_perf.mp4">here</a>.</p> <!--This will be shown to users who are using browsers that do not suport the video element-->
+          </video>
+        </div>
     </div>
     <div> <!--Adding a footer--> <!--Uses an absolute URL to link to a website-->
+      <hr>
       <p>Find out what being a <a href="https://www.urbandictionary.com/define.php?term=Kpop%20Fans">K-pop fan</a> is</p>
   </body>
 </html>
