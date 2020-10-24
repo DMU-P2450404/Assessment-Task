@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--Adding ko after lang defines the page as being in Korean as well as English-->
+<html lang="en, ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Assessment Task by Abbie Waterson</title>
+    <!--These link tags are going to a website for the Korean font to be used later on.-->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/single-day-regular" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/gothic-a1" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/earlyaccess.nanumpenscript.css" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/earlyaccess/hanna.css" type="text/css"/>
+    <meta name="viewport" content="width=device-width"/>
+  </head>
+  <body>
+    <div> <!--Adds a heading section--> <!--Uses relative URLs to link to other pages in the website-->
+      <h1>This is a webpage all about me</h1>
+      <a href="index.html">Home</a>
+      <a href="about_me.html">About Me</a>
+      <a href="social_media.html">My Social Media</a>
+    </div>
+    <div> <!--Video section-->
+      <h2>My favorite K-dramas</h2>
+      <p>You have found my favourite dramas list. Feel free to see each of the trailers in turn.<br>You will also find a few other of my recommendations.</p>
+      <h3>조선로코-녹두전 (The Tale of Nokdu)</h3>
+      <video controls="true" width="50%" poster="vid/Nokdu_cover.webp"> <!--Adds a video file in sveral formats to support as many browsers as possible-->
+        <source src="vid/Nokdu.ogv" type="video/ogg"/>
+        <source src="vid/Nokdu.webm" type="video/webm"/>
+        <source src="vid/Nokdu.mp4" type="video/mp4"/>
+      </video>
+      <p>If your browser cannot the video element, you can download the video <a href="vid/Nokdu.mp4">here</a>.</p> <!--Fallback for browsers that cannot support video elements-->
+      <h3>후아유: 학교 2015 (Who Are You: School 2015)</h3>
+      <video controls="true" width="50%" poster="vid/School_cover.webp"> <!--Adds a video file in sveral formats to support as many browsers as possible--> <!--ogg file exceded 25MB whcih is too big for GitHub-->
+        <source src="vid/School.webm" type="video/webm"/>
+        <source src="vid/School.mp4" type="video/mp4"/>
+      </video>
+      <p>If your browser cannot the video element, you can download the video <a href="vid/School.mp4">here</a>.</p> <!--Fallback for browsers that cannot support video elements-->
+      <h3>화랑 (Hwarang)</h3>
+      <video controls="true" width="50%" poster="vid/Hwarang_cover.webp"> <!--Adds a video file in sveral formats to support as many browsers as possible-->
+        <source src="vid/Hwarang.ogv" type="video/ogg"/>
+        <source src="vid/Hwarang.webm" type="video/webm"/>
+        <source src="vid/Hwarang.mp4" type="video/mp4"/>
+      </video>
+      <p>If your browser cannot the video element, you can download the video <a href="vid/Hwarang.mp4">here</a>.</p> <!--Fallback for browsers that cannot support video elements-->
+    </div>
+    <div> <!--list section-->
+      <h3>Some of my other favourite dramas</h3>
+      <ul>
+        <li>청춘기록 (Record of Youth)</li>
+        <li>군주-가면의 주인 (The Emperor: Owner of the Mask. Also titled Ruler: Master of the Mask)</li>
+        <li>라디오 로맨스 (Radio Romance)</li>
+        <li>싸우자 귀신아 (Bring It On Ghost. Also titled Hey Ghost, Let's Fight)</li>
+        <li>좋아하면 울리는 (Love Alarm)</li>
+        <li>닥터스 (The Doctors)</li>
+      </ul>
+    </div>
+    <hr>
+    <div> <!--Adds a footter section--> <!--Uses an absolute URL to link to a website-->
+      <p>See my practice website <a href="https://dmu-p2450404.github.io/Tasks/Practice/index.html">here</a></p>
+    </div>
+  </body>
+</html>
