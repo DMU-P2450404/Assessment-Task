@@ -5,6 +5,18 @@
     <meta charset="utf-8">
     <title>Assessment Task by Abbie Waterson</title>
     <!--These link tags are going to a website for the Korean fonts to be used throughout the website-->
+    
+    <!-- ***
+         The Google fonts throw an error when your site is accessed via GitHub Pages. GitHub pages uses a 
+         secure connection - https.
+
+         The urls below for the Google fonts aren't on a secure connection, they use http. Chrome wont allow a website
+         that has been loaded securely, telling the user that it's secure, to load additional content using the 
+         not-so-secure http.
+        
+         Try changing those urls to use https - it'll likely just work.
+
+         *** -->
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/single-day-regular" type="text/css"/>
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/gothic-a1" type="text/css"/>
     <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/earlyaccess.nanumpenscript.css" type="text/css"/>
@@ -22,6 +34,10 @@
     <p><a href="#favourite_songs">Jump to my favourite songs</a> or <a href="#favourite_k-dramas">jump to my favourite K-dramas</a></p> <!--This uses an absolute URL to link within the same page-->
     <div> <!--Adding a section for the introduction-->
       <h2>Introduction</h2>
+      
+      <!-- ***
+           You've got a <p> instead of a </p> at the end of this line.
+           *** -->
       <p>Who am I? Well, my name is Abbie Waterson and I am 20 years old.<p>
         <blockquote> <!--A blockqote adds a little information and it will be intended-->
           <p>"But you have the mental age of a 15 year old"</p>
@@ -56,10 +72,24 @@
         <br>
         <li lang="ko" style="color: #be0965; font-family: 'Nanum Pen Script'; font-size: 130%">화랑 (Hwarang) <br> <img src="img/Hwarang.png" alt="Hwarang poster" style="width: 350px"/></li>
       </ol>
+      
+      <!-- ***
+           You've used the <small> element here. Whilst it's not deprecated, it would be better to 
+           style in your CSS, rather than using HTML elements to denote style.
+           *** -->
       <p><small>Spot the common feature other than they are in Korean.</small></p>
       <p>Click <a href="dramas.html">here</a> to watch the trailers of the dramas in this list.</p>
       <br>
       <p>Some of my favourite books:</p>
+      
+      <!-- ***
+           You've used <br> elements here to provide some space between the list items.
+
+           It would be better to use CSS to do this, by adding a bottom margin to the list items.
+  
+           This would give you more control over the amount of space, and allow you to apply and change this 
+           consistently across all lists.
+           *** -->
       <ul> <!--This is the start of the unordered list-->
         <li style="color: #440090; font-family: 'Hanna'">Eldest by Christopher Paolini (the second book in the Eragon series because the first one is rubbish).<br> <img src="img/Eldest.jpg" alt="Eldest by Christopher Paolini book cover" style="width: 350px"/> <br> <small>I'm currently reading the third book</small></li>
         <br>
@@ -72,4 +102,9 @@
       <p>See my practice website <a href="https://dmu-p2450404.github.io/Tasks/Practice/index.html">here</a></p>
     </div>
   </body>
+    <!-- ***
+         This is really good work, well done.
+         *** -->
 </html>
+  
+ 
